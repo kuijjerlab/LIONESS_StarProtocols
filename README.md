@@ -18,9 +18,10 @@ The networks can be modeled by executing the `run_read_combine.sh` script. This 
 The folder `visualization` contains code to reproduce Figure 2.
 
 ### Visualization code ###
-(1) `ExtractData.R`: convert the network files from RData to txt.  
+(1) `ExtractData.R`: Convert the network files from RData to txt.  
 (2) `VizInitialData4.m`: Makes figures visualizing Pearson networks.  
 (3) `VizInitialData_PANDA4.m`: Makes figures visualizing the PANDA networks.
+(4) `SmoothScatter.R`: Make smooth scatter plots for Pearson and PANDA networks in R.
 
 ### Visualization folders ###
 (1) Data: contains the original yeast gene expression data and the aggregate yeast PANDA network; where extracted networks will be written.  
